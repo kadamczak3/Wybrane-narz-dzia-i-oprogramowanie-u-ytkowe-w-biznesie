@@ -1,0 +1,17 @@
+Zad.2.
+
+git status
+git add .
+git commit -m "komentarz"
+git push
+
+
+Zad.3.
+Select * from CoffeShop 
+where product in (‘Latte’, ‘Long Black’) and city not in (‘Philadelphia’);
+
+Select  Product * from CoffeShop 
+where Customer ref in (‘william thompson_86’, ‘mark taylor_113’);
+
+Select distinct City from CoffeShop 
+where Product in ('Flat White', 'Cappuccino') ;
